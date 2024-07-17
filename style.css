@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+body, html {
+    margin: 0;
+    font-family: 'PT Sans Narrow', serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.recipe {
+    font-weight: 700;
+    font-size: 40px;
+    background: -webkit-linear-gradient(#8b0000, #ffb8b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.links {
+    margin: 7px;
+    font-size: 20px;
+    display: flex;
+    flex-flow: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.main-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.spag-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.text-container {
+    flex: 1;
+    max-width: 400px;
+}
+
+.text-container h2 {
+    margin-top: 0;
+}
+
+.text-container p {
+    margin: 0 0 20px;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+}
+  .click-me{
+    padding: 15px 30px 15px 30px;
+    border-radius:8px;
+    color:#8b0000;
+    font-size:15px;
+    font-weight:900;
+    border:solid 1px #aeb2aa;
+    cursor:pointer;
+  }
+
+  .method{
+    display:flex;
+    justify-content:center;
+  }
+
+  .container{
+    display:flex;
+    flex-direction:column;
+  }
+
+ 

@@ -1,1 +1,1 @@
-# spag-recipe-page
+# This is a recipe website for spaghetti.
